@@ -9,6 +9,10 @@ from datetime import datetime
 import sempy.fabric as fabric
 from sempy.fabric.exceptions import FabricHTTPException, WorkspaceNotFoundException
 
+
+from notebookutils import notebook
+
+
 # Function to pad or truncate string
 def pad_or_truncate_string(input_string, length, pad_char=' '):
     if len(input_string) > length:
