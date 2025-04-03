@@ -1,6 +1,7 @@
 import json
 from delta.tables import DeltaTable
 from pyspark.sql.utils import AnalysisException
+from notebookutils import notebook
 
 def optimize_and_vacuum_single_table(table_path):
     try:
