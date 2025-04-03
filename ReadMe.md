@@ -7,3 +7,6 @@ This repository contains scripts and functions for optimizing Fabric Lakehouse o
 ## Features
 - **Fabric Lakehouse Optimization**: Scripts to optimize and vacuum Fabric Lakehouse.
 - **SQL Endpoint Refresh**: Python script to automatically refresh SQL endpoints in a Fabric Lakehouse.
+
+
+##Note: You need pass "spark" keyword in function  parameter, if you are using in pipeline.
