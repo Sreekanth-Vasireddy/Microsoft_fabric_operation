@@ -1,5 +1,4 @@
 # Microsoft_fabric_operation
-# fabric_operation
 # Fabric Lakehouse Optimization and SQL Endpoint Refresh
 
 ## Overview
